@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding: 30px 0;
+    font-size: 40px;
+}
+.titulo{
+    padding-top: 25px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+main{
+    margin: auto;
+    max-width: 1100px;
+}
+.contenedor{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9e9292;
+    padding: 20px;
+}
+.barra{
+    display: flex;
+    padding: 6px 15px;
+    width: 80%;
+    height: 35px;
+    background-color: #444141;
+    margin: 20px 0;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.calculadora{
+    padding: 35px;
+    background-color: #444141;
+}
+.tecla{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+.tecla:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+.fila{
+    padding: 5px 0;
+}
+.historial{
+    background-color: #444141;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+    padding: 25px 0;
+}
+.datos{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+ol,li{
+    display: flex;
+    padding: 0px 25px;
+}
