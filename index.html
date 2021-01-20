@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Document</title>
+    <link rel="icon" href="assets/img/icono.png">
+    <title>Calculadora</title>
 </head>
 <body>
     <main>
         <section class="titulo">
             <h1>Calculadora</h1>
         </section>
-        <section>
+        <section class="contenido">
             <div class="contenedor">
                 <div class="barra" id="barra">
 
                 </div>
+                 
                 <div class="calculadora">
                     <div class="fila">
                         <button class="tecla">7</button>
@@ -36,11 +38,16 @@
                         <button class="tecla">+</button>
                     </div>
                     <div class="fila">
-                        <button class="tecla"> <-- </button>
+                        <button class="tecla">←</button>
                         <button class="tecla">0</button>
                         <button class="tecla">=</button>
                         <button class="tecla">/</button>
                     </div>
+                    <div class="fila">
+                        <button class="C" id="borrar">C</button>
+                        <button class="C" id="borrarHistorial">Borrar</button>
+
+                    </div>     
                 </div>
             </div>
             <div class="historial">
@@ -50,6 +57,7 @@
 
                     </ul>
                 </div>
+                
             </div>
         </section>
     </main>

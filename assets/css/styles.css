@@ -28,6 +28,7 @@ main{
     align-items: center;
     background-color: #9e9292;
     padding: 20px;
+    border-radius: 5px;
 }
 .barra{
     display: flex;
@@ -43,7 +44,7 @@ main{
     padding: 35px;
     background-color: #444141;
 }
-.tecla{
+.tecla, .C{
     width: 50px;
     height: 50px;
     background-color: #000;
@@ -63,6 +64,7 @@ main{
     text-align: center;
     color: #ffffff;
     padding: 25px 0;
+    border-radius: 5px;
 }
 .datos{
     padding: 25px 0;
@@ -73,4 +75,14 @@ main{
 ol,li{
     display: flex;
     padding: 0px 25px;
+}
+@media screen and (max-width:835px){
+    .contenido{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+    }
+    .contenedor{
+        margin-bottom: 15px;
+    } 
 }
