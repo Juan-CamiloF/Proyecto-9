@@ -69,8 +69,8 @@ main{
 .datos{
     padding: 25px 0;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 ol,li{
     display: flex;
@@ -85,4 +85,47 @@ ol,li{
     .contenedor{
         margin-bottom: 15px;
     } 
+}
+@media screen and (max-width:652px){
+    .contenedor{
+        width: 70%;
+    }
+}
+@media screen and (max-width:474px){
+    .contenedor{
+        width: 80%;
+    }
+}
+@media screen and (max-width:420px){
+    .contenedor{
+        width: 90%;
+    }
+    .historial{
+        width: 90%;
+    }
+}
+@media screen and (max-width:374px){
+    .contenedor{
+        width: 100%;
+    }
+    .barra{
+        width: 90%;
+    }
+    .historial{
+        width: 100%;
+    }
+}
+@media screen and (max-width:336px){
+    .contenedor{
+        padding: 10px;
+    }
+    .calculadora{
+        padding: 25px;
+    }
+}
+@media screen and (max-width:290px){
+    .tecla, .C{
+        width: 40px;
+        height: 40px;
+    }
 }
